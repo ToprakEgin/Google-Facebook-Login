@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.challenge.toprakegin.calculuschallenge.InformationFacebook">
+
+    <TextView
+        android:id="@+id/idfacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/id_text"
+        android:textSize="20sp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/emailfacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email_text"
+        android:textSize="20sp"
+        android:layout_below="@+id/idfacebook"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/namefacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/emailfacebook"
+        android:text="@string/name_text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/id_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/emailfacebook"
+        android:layout_marginStart="36dp"
+        android:layout_toEndOf="@+id/emailfacebook"
+        android:text="ID"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/email_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/emailfacebook"
+        android:layout_alignStart="@+id/id_facebook"
+        android:text="E-Mail"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/name_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/namefacebook"
+        android:layout_alignStart="@+id/email_facebook"
+        android:text="Name"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namefacebook"
+        android:text="Gender:"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/gender_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/gender"
+        android:layout_alignStart="@+id/name_facebook"
+        android:text="Gender"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/bday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age:"
+        android:textSize="20sp"
+        android:layout_below="@+id/gender"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/bday_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bday"
+        android:layout_alignStart="@+id/gender_facebook"
+        android:text="Age"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/locale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Locale:"
+        android:textSize="20sp"
+        android:layout_below="@+id/bday"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/locale_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="locale"
+        android:textSize="20sp"
+        android:layout_below="@+id/bday_facebook"
+        android:layout_alignStart="@+id/bday_facebook" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Account Info</string>
+    <string name="information_google">Google Information</string>
+    <string name="information_facebook">Facebook Information</string>
+
+    <string name="name_text">Name:</string>
+    <string name="email_text">E-mail:</string>
+    <string name="id_text">Id:</string>
+
+    <string name="facebook_app_id">447720742265652</string>
+    <string name="fb_login_protocol_scheme">fb447720742265652</string>
+</resources>

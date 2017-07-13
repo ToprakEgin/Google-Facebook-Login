@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.challenge.toprakegin.calculuschallenge.InformationGoogle">
+
+    <ImageView
+        android:id="@+id/profilePicture_google"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <TextView
+        android:id="@+id/idgoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/id_text"
+        android:textSize="20sp"
+        android:layout_below="@+id/profilePicture_google"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/emailgoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email_text"
+        android:textSize="20sp"
+        android:layout_below="@+id/idgoogle"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/nametextgoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/emailgoogle"
+        android:text="@string/name_text"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/id_google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textSize="16sp"
+        android:layout_alignBaseline="@+id/idgoogle"
+        android:layout_alignBottom="@+id/idgoogle"
+        android:layout_alignStart="@+id/email_google" />
+
+    <TextView
+        android:id="@+id/email_google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:textSize="16sp"
+        android:layout_alignBaseline="@+id/emailgoogle"
+        android:layout_alignBottom="@+id/emailgoogle"
+        android:layout_alignStart="@+id/name_google" />
+
+    <TextView
+        android:id="@+id/name_google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name Surname"
+        android:textSize="16sp"
+        android:layout_alignBaseline="@+id/nametextgoogle"
+        android:layout_alignBottom="@+id/nametextgoogle"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
